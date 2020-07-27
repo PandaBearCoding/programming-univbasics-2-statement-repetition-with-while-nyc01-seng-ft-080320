@@ -1,15 +1,9 @@
 # Write your code here
 
-celebration_time = 1
 count = 10
 
-while (condition) do 
-  
+while count >= 1 do 
+  puts count
+  count -= 1
 end 
-
-
-while count > celebration_time do 
-  break if count == celebration_time
-  puts "#{count}"
-  count = count - 1
-end 
+puts "Happy New Year!"
